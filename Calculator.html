@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="Calculator.css">
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <div class="header">
+                    <div class="titles">
+                        Simple Calculator
+                    </div>
+                </div>
+                <div class="displayMain"></div>
+                <div class="displayOperator"></div>
+            </div>
+            <button class="btn" data-num="9">9</button>
+            <button class="btn" data-num="8">8</button>
+            <button class="btn" data-num="7">7</button>
+            <button class="btn" data-num="6">6</button>
+            <button class="btn" data-num="5">5</button>
+            <button class="btn" data-num="4">4</button>
+            <button class="btn" data-num="3">3</button>
+            <button class="btn" data-num="2">2</button>
+            <button class="btn" data-num="1">1</button>
+            <button class="btn" data-num="0">0</button>
+            <button class="btn" data-num=".">.</button>
+            <div class="operators">
+                <button class="btn" data-num="/">÷</button>
+                <button class="btn" data-num="*">X</button>
+                <button class="btn" data-num="-">-</button>
+                <button class="btn" data-num="+">+</button>
+            </div>
+            <button class="clear">C</button>
+            <button class="clearAll">AC</button>
+            <button class="equal">=</button>
+        </div>
+        <div class="tips">
+            <div class="title">The keyboard is supported.</div>
+            <div class="hint small">If it doesn't work, click on the page.</div>
+            <div class="hint">For All Clean <span class="hint-sel">AC</span> use <span class="hint-btn">Delete</span>
+                button.</div>
+            <div class="hint">For Cancel Entry <span class="hint-sel">CE</span> use <span class="hint-btn">End</span>
+                button.</div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
